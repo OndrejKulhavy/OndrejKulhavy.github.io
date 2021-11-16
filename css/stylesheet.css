@@ -1,0 +1,11 @@
+
+header {
+    height: 20%;
+    background-color: gray;
+    text-align: center;
+}
+#sections {
+    background-color: indianred;
+    height: 60%;
+    width: 80%;
+}

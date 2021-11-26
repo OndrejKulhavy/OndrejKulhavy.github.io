@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    height: 95vh;
+.header{
+    height: 100vh;
     background-image: linear-gradient(
             to right bottom,
             rgba(3, 49, 252, 0.801),
@@ -15,11 +15,14 @@ header{
 }
 .header-title{
     position: absolute;
-    top: 50%;
+    top: 30%;
     text-align: center;
     left: 50%;
     color: white;
     font-weight: 1000;
     font-size: 70px;
     transform: translate(-50%,-50%);
+}
+.footer{
+    padding: 5px;
 }

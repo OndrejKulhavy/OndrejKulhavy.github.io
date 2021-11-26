@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 95vh;
+    background-image: linear-gradient(
+            to right bottom,
+            rgba(3, 49, 252, 0.801),
+            rgba(255, 0, 0, 0.781)),
+         url(../img/sleepy.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.header-title{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    color: white;
+    font-weight: 1000;
+    font-size: 70px;
+    transform: translate(-50%,-50%);
+}

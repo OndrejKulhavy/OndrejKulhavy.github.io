@@ -24,5 +24,22 @@
     transform: translate(-50%,-50%);
 }
 .footer{
-    padding: 5px;
+    height: 20vh;
+    background-color: rgb(34, 34, 34);
+}
+.social_media{
+    height: 32px;
+    margin: 10px;
+    filter: invert();
+}
+.social_media_box{
+    padding-top: 5vh;
+        display: flex;
+        justify-content: center;
+}
+.copyright_info{
+    padding-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
